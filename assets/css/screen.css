@@ -2869,7 +2869,7 @@ Usage (In Ghost editor):
 }
 
 .site-footer .copyright a {
-    padding: 0 0 0 15px;
+    padding: 0;
 }
 
 .site-footer .copyright a:first-child {
@@ -3505,7 +3505,7 @@ form[data-members-form].error .message-error {
 
 .post-visibility-members,
 .post-visibility-paid {
-    display: none;
+    text-transform: uppercase;
 }
 
 .post-upgrade-cta {

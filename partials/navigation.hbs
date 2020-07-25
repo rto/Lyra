@@ -1,7 +1,7 @@
 {{#if isSecondary}}
     {{!-- secondary navigation --}}
         {{#foreach navigation}}
-            <a class="{{link_class for=(url) class=(concat "nav-" slug)}}" href="{{url absolute="true"}}">{{label}}</a>
+             &middot; <a class="{{link_class for=(url) class=(concat "nav-" slug)}}" href="{{url absolute="true"}}">{{label}}</a>
         {{/foreach}}
 {{else}}
     {{!-- primary navigation --}}

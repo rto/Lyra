@@ -1,7 +1,8 @@
 routes:
-  /signup/: members/signup
+  /subscribe/: members/signup
   /signin/: members/signin
   /account/: members/account
+  /newsletter/: /tag/newsletter/
 
 collections:
   /:
